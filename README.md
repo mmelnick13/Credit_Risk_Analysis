@@ -12,12 +12,16 @@ The purpose of this analysis was to evaluate the performance of models and makea
 - Recall High Risk: 62%
 - Recall Low Risk: 67%
 
+![naive](naive.PNG)
+
 ### SMOTE Oversampling
 - Accuracy Score: 65%
 - Precision High Risk: 1%
 - Precision Low Risk: 100%
 - Recall High Risk: 66%
 - Recall Low Risk: 64%
+
+![smote](smote.PNG)
 
 ### Cluster Centroid Undersampling
 - Accuracy Score: 51%
@@ -26,12 +30,16 @@ The purpose of this analysis was to evaluate the performance of models and makea
 - Recall High Risk: 59%
 - Recall Low Risk: 43%
 
+![cluster](cluster.PNG)
+
 ### SMOTEENN Sampling
 - Accuracy Score: 62%
 - Precision High Risk: 1%
 - Precision Low Risk: 100%
 - Recall High Risk: 70%
 - Recall Low Risk: 55%
+
+![smoteenn](smoteenn.PNG)
 
 ### Balanced Random Forest Classifying
 - Accuracy Score: 79%
@@ -40,12 +48,16 @@ The purpose of this analysis was to evaluate the performance of models and makea
 - Recall High Risk: 67%
 - Recall Low Risk: 91%
 
+![balanced](balanced.PNG)
+
 ### Easy Ensemble Classifying
 - Accuracy Score: 93%
 - Precision High Risk: 7%
 - Precision Low Risk: 100%
 - Recall High Risk: 91%
 - Recall Low Risk: 94%
+
+![easy](easy.PNG)
 
 ## Summary
 This analysis is trying to find the best model that can detect if a loan is high risk or not. Becasue of that, we need to find a model that lets the least amount of high risk loans pass through undetected. That correlating statistic for this is the recall rate for high risk. Looking through the different models, the ones that scored the highest were:
